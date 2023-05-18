@@ -1,0 +1,27 @@
+
+.image-container {
+    position: absolute;
+    top: 100px;
+    right: 90px;
+}
+
+.image-container2 {
+    margin-right: 20px;
+}
+
+#imgs {
+   
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+
+
+.img-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
