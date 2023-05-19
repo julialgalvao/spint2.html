@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/hero.css">
     <link rel="stylesheet" href="./assets/css/image.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 
 </head>
 
@@ -60,7 +61,7 @@
 <!-- FIM MENU -->
 
 <!-- INICIO SOBRE NOS -->
-    <div class="container bg-white" id="container1">
+    <div class="container bg-green" id="container1">
         <div class="hero">
             <h1>Sobre nós</h1>
             <h2>Quem somos</h2>
@@ -95,17 +96,17 @@
         <h2>Qual sua importância?</h2>
         </div>
         
-        <div class="card-item">
+        <div class="card-item"  onclick="changeColor(this)">
         <h2>Controle da Poluição</h2>
         <p>As árvores e plantas que estão nas áreas verdes absorvem o gás carbônico e liberam oxigênio, fazendo com que melhore a qualidade do ar das cidades.</p>
         </div>
     
-        <div class="card-item">
+        <div class="card-item"  onclick="changeColor(this)">
         <h2>Controle das Ilhas de Calor</h2>
         <p>As ilhas de calor são responsáveis por diminuir a umidade do ar, ajudar na ação do efeito estufa e fazer muito mal as espécies. As áreas verdes controlam a ação dessas ilhas de calor nas cidades.</p>
         </div>
     
-        <div class="card-item">
+        <div class="card-item"  onclick="changeColor(this)" >
         <h2>Melhora na Qualidade de Vida</h2>
         <p>Além de ajudarem o meio ambiente, também ajudam na saúde física e mental dos moradores da cidade por conta das áreas de recreação.</p>
         </div>
@@ -126,33 +127,54 @@
                 <img src="./assets/images/background/A day at the park-pana 1.png" alt="Imagem de pessoas em um parque">
               </div>
         </div>
+       
 
-        <div class="container bg-white" id="container5">
-            <div></div>
-        </div>
-
-        <div class="container" id="container6">
-
-        </div>
-
-        <div class="container" id="container7">
-
+        <div class="container2 bg-green" id="container5">
+            <div class="image-container2">
+                <img src="./assets/images/background/aspersores/Rectangle 8.png" alt="imagem de um aspersor">
+            </div>
+            <div class="text-container">
+                <h1>Projeto</h1>
+                <h2>Uma solução para o problema</h2>
+                <h4>Aspersores</h4>
+                <p>Em nosso projeto, utilizamos aspersores que funcioanm apenas quando necessário, ou seja, quando o solo precisa ser irrigado. Para que isso fosse possível, colocamos sensores de umidade juntamente aos aspersores. Os aspersores então só serão ligados quando o sensor captar que o solo não está úmido o suficiente.</p>
+                <h4>Caixas coletoras</h4>
+                <p>Utilizamos caixas coletoras para armazenar a água das chuvas de prédios, através dos rufos e calhas. Está água seria então reutilizada para a irrigação do solo.</p>
+            </div>
         </div> 
 
+        <div class="container-card" id="container6">
+            <div class="card-item2">
+                <div class="container-left">
+                    <!-- Conteúdo do container esquerdo -->
+                  </div>
+                  <div class="container-right">
+                    <!-- Conteúdo do container direito -->
+                  </div>
+            </div>
+        </div>
+
+    <div class="container" id="container7">
+        <form href="#">
+            <h1>Contato</h1>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" onChange="validaEmail()" required><br>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" onChange="validaTelefone()"required>
+        </form>
+            <input type="submit" value="Enviar" onclick="validaForm()">
+    </div> 
 
 
-
-
-
-
-
-
-
-
-
+    <footer>
+        <p>&copy; 2023 Seu Site. Todos os direitos reservados.</p>
+    </footer>
 
 <script src="script.js"></script>
-
 </body>
 
 </html>
