@@ -25,10 +25,9 @@ a{
     background-size: cover;
     background-position: 50%;
     background-attachment: fixed;
-    background-color:#b8cbdc;
 }
-.bg-green{
-    background-color: #c9ecd4;
+.bg-white{
+    background-color: #ffffff;
 }
 
 .bg-blue{

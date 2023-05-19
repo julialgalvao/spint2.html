@@ -14,8 +14,9 @@
     width: 600px;
     height: 400px;
     position: absolute;
-    top: 150px;
-    left: 250px;
+    margin-left: 200px;
+    /* top: 150px;
+    left: 250px; */
 }
 
 

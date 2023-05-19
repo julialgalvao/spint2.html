@@ -64,6 +64,7 @@ function validaForm() {
 }
 
 //FAZER OS CARDS MUDAREM DE COR 
+//lembrar de colocar um onmouse ou coisa assim aui!
 function changeColor(element) {
     var desiredColor = "#c9ecd4";
     element.style.backgroundColor = desiredColor;

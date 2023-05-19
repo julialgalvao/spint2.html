@@ -8,7 +8,7 @@
     justify-content: space-evenly;
     row-gap: 20px;
     position: relative;
-    background-color: #9A9AB8;
+    background-color: #ffffff;
     padding-bottom: 50px;
 }
 
@@ -53,9 +53,6 @@
     font-size: 50px;
     margin-bottom: 20px;
   }
-/* #d4e4f7 AZUL CLARO */
-/* #f2f2f2 CINZA CLARO QUASE BRANCO */
-/* #c9ecd4 VERDE PASTEL */
 
 .card-item2 {
     width: 80%;
@@ -67,42 +64,32 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
-    box-shadow: 1px 1px 30px #043232;
+    box-shadow: 1px 1px 30px #a9e4e4;
     border-radius: 7px;
     transition: .5s;
     background-color: #b8cbdc;
 }
 
-
-.container-right{
-    width: 45%;
+/* .container-right{
+    width: 400px;
     height: 100%;
     margin-right: 55%;
     box-sizing: border-box;
   
   }
+  .container-left{
+    width: 400px;
+    height: 100%;
+    margin-left: 55%;
+    box-sizing: border-box;
   
-
+  }
+ 
 .container-left {
   background-color: #103e66;
 }
 
 .container-right {
   background-color: #2e984f;
-}
+} */
 
-/* .list-container {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .left-li {
-    text-align: left;
-  }
-  
-  .right-li {
-    text-align: right;
-  } */
